@@ -1,4 +1,4 @@
-package joelbits.modules.preprocessing.connectors.utils;
+package joelbits.modules.preprocessing.plugins.utils;
 
 /**
  * Used instead of commons.io since it is unnecessary to include an extra library only for this function.

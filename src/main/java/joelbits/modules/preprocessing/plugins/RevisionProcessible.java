@@ -1,4 +1,4 @@
-package joelbits.modules.preprocessing.connectors;
+package joelbits.modules.preprocessing.plugins;
 
 import java.io.IOException;
 import java.util.List;

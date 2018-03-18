@@ -1,4 +1,4 @@
-package joelbits.modules.preprocessing.connectors;
+package joelbits.modules.preprocessing.plugins;
 
 /**
  * Collects project-level data from sources containing unstructured data.

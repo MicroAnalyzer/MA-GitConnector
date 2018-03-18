@@ -1,4 +1,4 @@
-package joelbits.modules.preprocessing.connectors;
+package joelbits.modules.preprocessing.plugins;
 
 /**
  * Allows snapshots of specific files to be checked out from a version

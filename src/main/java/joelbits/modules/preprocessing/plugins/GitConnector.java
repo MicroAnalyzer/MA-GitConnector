@@ -1,10 +1,12 @@
-package joelbits.modules.preprocessing.connectors;
+package joelbits.modules.preprocessing.plugins;
 
+import com.google.auto.service.AutoService;
 import com.google.common.collect.Iterators;
 import com.google.common.collect.PeekingIterator;
-import joelbits.modules.preprocessing.connectors.types.SourceCodeFileType;
-import joelbits.modules.preprocessing.connectors.utils.PathUtil;
-import joelbits.modules.preprocessing.connectors.utils.TreeIterator;
+import joelbits.modules.preprocessing.plugins.spi.Connector;
+import joelbits.modules.preprocessing.plugins.types.SourceCodeFileType;
+import joelbits.modules.preprocessing.plugins.utils.PathUtil;
+import joelbits.modules.preprocessing.plugins.utils.TreeIterator;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.*;
 import org.eclipse.jgit.diff.DiffEntry;
@@ -25,6 +27,7 @@ import static java.util.stream.Collectors.toMap;
 /**
  * Connects to a git repository and allows a client to access its data.
  */
+@AutoService(Connector.class)
 public final class GitConnector implements Connector {
     private static final Logger log = LoggerFactory.getLogger(GitConnector.class);
     private Repository repository;
@@ -179,6 +182,6 @@ public final class GitConnector implements Connector {
 
     @Override
     public String toString() {
-        return "GitConnector";
+        return "git";
     }
 }

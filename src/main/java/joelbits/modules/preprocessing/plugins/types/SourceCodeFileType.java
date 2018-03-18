@@ -1,6 +1,6 @@
-package joelbits.modules.preprocessing.connectors.types;
+package joelbits.modules.preprocessing.plugins.types;
 
-import joelbits.modules.preprocessing.connectors.utils.FileNameUtils;
+import joelbits.modules.preprocessing.plugins.utils.FileNameUtils;
 
 import java.util.Arrays;
 
