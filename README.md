@@ -1,6 +1,6 @@
 # MA-GitConnector
 
-A git repository connector plug-in for MicroAnalyzer. Used to extract evolution data from git repositories.
+A git repository connector plug-in for [MicroAnalyzer](https://github.com/joelBIT/MicroAnalyzer). Used to extract evolution data from git repositories.
 
 ## How To Compile Sources
 
