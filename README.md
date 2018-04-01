@@ -1,4 +1,4 @@
-# MA-GitHubCloner
+# MA-GitConnector
 
 A git repository connector plug-in for MicroAnalyzer. Used to extract evolution data from git repositories.
 
